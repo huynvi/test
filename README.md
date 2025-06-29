@@ -1,5 +1,5 @@
 # test
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/sylciv/test@main/f.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/huynvi/test@main/f.js"></script>
 ```
