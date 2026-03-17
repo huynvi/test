@@ -10,8 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: show info
-        run: |
-          echo "RUNNING"
-          whoami
-          bash x.sh
+      - name: run script
+        run: bash x.sh
+        env:
+          TOKEN: ${{ secrets.DEMO_TOKEN }}
